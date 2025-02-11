@@ -4,7 +4,7 @@
 body {
     background-color: black;
     color: white;
-    font-family: "American Typewriter";
+    font-family: "American Typewriter", sans-serif;
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
@@ -34,7 +34,7 @@ ul {
     overflow: hidden;
 }
 .section {
-    padding: 48px 0px;
+    padding: 48px 0;
 }
 
 .container {
@@ -52,7 +52,31 @@ ul {
 .link:hover {
     color: whitesmoke;
 }
+/* button */
+.button {
+    padding: 16px 32px;
+    color: white;
+    background-color:whitesmoke;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
 
+.button:hover {
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    color: white;;
+}
+
+.button:focus {
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    color: grey;
+;
+}
 /* header */
 .header{
     background-color: black;
@@ -92,6 +116,11 @@ ul {
     height: 50%;
 }
 /*team-section*/
+.team{
+    padding: 48px 0;
+    background-color: black;
+
+}
 .team-section{
     padding: 16px 0;
     background-color: black;
@@ -99,7 +128,7 @@ ul {
 
 .teammate-list {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     gap: 40px;
 }
 

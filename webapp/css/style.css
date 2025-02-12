@@ -52,31 +52,7 @@ ul {
 .link:hover {
     color: whitesmoke;
 }
-/* button */
-.button {
-    padding: 16px 32px;
-    color: white;
-    background-color:whitesmoke;
-    border: 2px solid whitesmoke;
-    border-radius: 8px;
-    font-weight: 600;
-    cursor: pointer;
-}
 
-.button:hover {
-    background-color: transparent;
-    border: 2px solid whitesmoke;
-    border-radius: 8px;
-    color: white;;
-}
-
-.button:focus {
-    background-color: transparent;
-    border: 2px solid whitesmoke;
-    border-radius: 8px;
-    color: grey;
-;
-}
 /* header */
 .header{
     background-color: black;
@@ -137,3 +113,222 @@ ul {
     font-weight: 300;
     color: white;
 }
+
+.about-section {
+    padding: 48px 0;
+    background-color: black;
+}
+
+.about-section h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.about-section p {
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.services-section {
+    padding: 48px 0;
+    background-color: black;
+}
+
+.services-section h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.services-section h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.services-section p {
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.contacts-section {
+    padding: 48px 0;
+    background-color: black;
+}
+
+.contacts-section h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.contacts-section h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.contacts-section p {
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.connect-section {
+    padding: 48px 0;
+    background-color: black;
+}
+
+.connect-section h2 {
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.connect-section h3 {
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.connect-section p {
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    justify-content: center;
+    display: flex;
+}
+
+.connect-section .button {
+    padding: 16px 32px;
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.connect-section .button:hover {
+    background-color: transparent;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: white;
+}
+
+.connect-section .button:active {
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    color: black;
+}
+
+.connect-section iframe {
+    width: 100%;
+    height: 400px;
+    border: 0;
+}
+
+/* Footer */
+.footer {
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 24px 0;
+    position: relative;
+    bottom: 0;
+    left: 0;
+}
+
+.footer .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1240px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+
+.footer nav ul {
+    display: flex;
+    gap: 40px;
+}
+
+.footer nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer nav ul li a:hover {
+    color: whitesmoke;
+}
+
+.footer address {
+    text-align: right;
+}
+
+.footer address ul {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.address-link {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.address-link:hover {
+    color: whitesmoke;
+}
+
+.footer i {
+    font-size: 20px;
+    margin-left: 10px;
+    color: white;
+}
+
+.address-copyright {
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+/* Фіксування футера внизу */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+main {
+    flex: 1;
+}
+
+

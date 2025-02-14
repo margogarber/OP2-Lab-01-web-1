@@ -67,7 +67,7 @@ ul {
 
 .header-menu {
     display: flex;
-    gap: 200px;
+    gap: 150px;
     flex-grow: 1;
     justify-content: center;
 }
